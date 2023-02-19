@@ -53,10 +53,10 @@ async def init():
     await userbot.start()
     await Alexa.start()
     try:
-        await Alexa.stream_call("https://telegra.ph/file/b60b80ccb06f7a48f68b5.mp4")
+        await Alexa.stream_call("https://te.legra.ph/file/b3e85f1744d03213a9e09.jpg")
     except NoActiveGroupCall:
         LOGGER("AlexaMusic").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else Bot is off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
         )
         sys.exit()
     except:
